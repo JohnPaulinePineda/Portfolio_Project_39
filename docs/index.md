@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 ***
 # Data Preprocessing : Data Quality Assessment, Preprocessing and Exploration for a Regression Modelling Problem
 
@@ -4141,97 +4143,97 @@ for column in cancer_rate_imputed_numeric:
 
 
     
-![png](output_121_0.png)
+![png](output_122_0.png)
     
 
 
 
     
-![png](output_121_1.png)
+![png](output_122_1.png)
     
 
 
 
     
-![png](output_121_2.png)
+![png](output_122_2.png)
     
 
 
 
     
-![png](output_121_3.png)
+![png](output_122_3.png)
     
 
 
 
     
-![png](output_121_4.png)
+![png](output_122_4.png)
     
 
 
 
     
-![png](output_121_5.png)
+![png](output_122_5.png)
     
 
 
 
     
-![png](output_121_6.png)
+![png](output_122_6.png)
     
 
 
 
     
-![png](output_121_7.png)
+![png](output_122_7.png)
     
 
 
 
     
-![png](output_121_8.png)
+![png](output_122_8.png)
     
 
 
 
     
-![png](output_121_9.png)
+![png](output_122_9.png)
     
 
 
 
     
-![png](output_121_10.png)
+![png](output_122_10.png)
     
 
 
 
     
-![png](output_121_11.png)
+![png](output_122_11.png)
     
 
 
 
     
-![png](output_121_12.png)
+![png](output_122_12.png)
     
 
 
 
     
-![png](output_121_13.png)
+![png](output_122_13.png)
     
 
 
 
     
-![png](output_121_14.png)
+![png](output_122_14.png)
     
 
 
 
     
-![png](output_121_15.png)
+![png](output_122_15.png)
     
 
 
@@ -4463,7 +4465,7 @@ plt.show()
 
 
     
-![png](output_126_0.png)
+![png](output_127_0.png)
     
 
 
@@ -4500,7 +4502,7 @@ plot_correlation_matrix(cancer_rate_imputed_numeric_correlation,mask)
 
 
     
-![png](output_128_0.png)
+![png](output_129_0.png)
     
 
 
@@ -4597,85 +4599,85 @@ for column in cancer_rate_transformed_numeric:
 
 
     
-![png](output_134_0.png)
+![png](output_135_0.png)
     
 
 
 
     
-![png](output_134_1.png)
+![png](output_135_1.png)
     
 
 
 
     
-![png](output_134_2.png)
+![png](output_135_2.png)
     
 
 
 
     
-![png](output_134_3.png)
+![png](output_135_3.png)
     
 
 
 
     
-![png](output_134_4.png)
+![png](output_135_4.png)
     
 
 
 
     
-![png](output_134_5.png)
+![png](output_135_5.png)
     
 
 
 
     
-![png](output_134_6.png)
+![png](output_135_6.png)
     
 
 
 
     
-![png](output_134_7.png)
+![png](output_135_7.png)
     
 
 
 
     
-![png](output_134_8.png)
+![png](output_135_8.png)
     
 
 
 
     
-![png](output_134_9.png)
+![png](output_135_9.png)
     
 
 
 
     
-![png](output_134_10.png)
+![png](output_135_10.png)
     
 
 
 
     
-![png](output_134_11.png)
+![png](output_135_11.png)
     
 
 
 
     
-![png](output_134_12.png)
+![png](output_135_12.png)
     
 
 
 
     
-![png](output_134_13.png)
+![png](output_135_13.png)
     
 
 
@@ -4765,79 +4767,79 @@ for column in cancer_rate_scaled_numeric:
 
 
     
-![png](output_140_0.png)
+![png](output_141_0.png)
     
 
 
 
     
-![png](output_140_1.png)
+![png](output_141_1.png)
     
 
 
 
     
-![png](output_140_2.png)
+![png](output_141_2.png)
     
 
 
 
     
-![png](output_140_3.png)
+![png](output_141_3.png)
     
 
 
 
     
-![png](output_140_4.png)
+![png](output_141_4.png)
     
 
 
 
     
-![png](output_140_5.png)
+![png](output_141_5.png)
     
 
 
 
     
-![png](output_140_6.png)
+![png](output_141_6.png)
     
 
 
 
     
-![png](output_140_7.png)
+![png](output_141_7.png)
     
 
 
 
     
-![png](output_140_8.png)
+![png](output_141_8.png)
     
 
 
 
     
-![png](output_140_9.png)
+![png](output_141_9.png)
     
 
 
 
     
-![png](output_140_10.png)
+![png](output_141_10.png)
     
 
 
 
     
-![png](output_140_11.png)
+![png](output_141_11.png)
     
 
 
 
     
-![png](output_140_12.png)
+![png](output_141_12.png)
     
 
 
@@ -5013,7 +5015,7 @@ plt.show()
 
 
     
-![png](output_152_0.png)
+![png](output_153_0.png)
     
 
 
@@ -5036,7 +5038,7 @@ plt.show()
 3. The relationship between the categorical predictors to the <span style="color: #FF0000">CANRAT</span> target variable was statistically evaluated using the following hypotheses:
     * **Null**: Difference in the means between groups 0 and 1 is equal to zero 
     * **Alternative**: Difference in the means between groups 0 and 1 is not equal to zero    
-2. There is sufficient evidence to conclude of a statistically significant difference between the means of <span style="color: #FF0000">CANRAT</span> measuremens obtained from groups 0 and 1 in 3 of the 4 categorical predictors given their high t-test statistic values with reported low p-values less than the significance level of 0.05.
+2. There is sufficient evidence to conclude of a statistically significant difference between the means of <span style="color: #FF0000">CANRAT</span> measurements obtained from groups 0 and 1 in 3 of the 4 categorical predictors given their high t-test statistic values with reported low p-values less than the significance level of 0.05.
     * <span style="color: #FF0000">HDICAT_VH</span>: T.Test.Statistic=-10.605, T.Test.PValue=0.000
     * <span style="color: #FF0000">HDICAT_L</span>: T.Test.Statistic=+6.559, T.Test.PValue=0.000   
     * <span style="color: #FF0000">HDICAT_M</span>: T.Test.Statistic=+5.104, T.Test.PValue=0.000 
@@ -5147,7 +5149,7 @@ display(cancer_rate_preprocessed_numeric_summary.sort_values(by=['Correlation.PV
     <tr>
       <th>CANRAT_FORARE</th>
       <td>0.165265</td>
-      <td>3.500992e-02</td>
+      <td>3.500993e-02</td>
     </tr>
     <tr>
       <th>CANRAT_AGRLND</th>
