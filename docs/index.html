@@ -12343,7 +12343,7 @@ dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eee3ff55">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=eee3ff55">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -12356,28 +12356,9 @@ dtype: object</pre>
 <span class="c1"># for categorical columns with</span>
 <span class="c1"># the most frequent category</span>
 <span class="c1">##################################</span>
-<span class="n">cancer_rate_cleaned_categorical</span><span class="p">[</span><span class="s1">'HDICAT'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">cancer_rate_cleaned_categorical</span><span class="p">[</span><span class="s1">'HDICAT'</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">()[</span><span class="mi">0</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">cancer_rate_cleaned_categorical</span><span class="p">[</span><span class="s1">'HDICAT'</span><span class="p">]</span> <span class="o">=</span> <span class="n">cancer_rate_cleaned_categorical</span><span class="p">[</span><span class="s1">'HDICAT'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">cancer_rate_cleaned_categorical</span><span class="p">[</span><span class="s1">'HDICAT'</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
 <span class="n">cancer_rate_imputed_categorical</span> <span class="o">=</span> <span class="n">cancer_rate_cleaned_categorical</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>C:\Users\John pauline magno\AppData\Local\Temp\ipykernel_19372\787869593.py:6: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
-The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
-
-For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
-
-
-  cancer_rate_cleaned_categorical['HDICAT'].fillna(cancer_rate_cleaned_categorical['HDICAT'].mode()[0], inplace=True)
-</pre>
 </div>
 </div>
 </div>

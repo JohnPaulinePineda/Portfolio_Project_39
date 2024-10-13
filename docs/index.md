@@ -3616,18 +3616,9 @@ cancer_rate_cleaned_categorical = cancer_rate_cleaned.select_dtypes(include='cat
 # for categorical columns with
 # the most frequent category
 ##################################
-cancer_rate_cleaned_categorical['HDICAT'].fillna(cancer_rate_cleaned_categorical['HDICAT'].mode()[0], inplace=True)
+cancer_rate_cleaned_categorical['HDICAT'] = cancer_rate_cleaned_categorical['HDICAT'].fillna(cancer_rate_cleaned_categorical['HDICAT'].mode()[0])
 cancer_rate_imputed_categorical = cancer_rate_cleaned_categorical.reset_index(drop=True)
 ```
-
-    C:\Users\John pauline magno\AppData\Local\Temp\ipykernel_19372\787869593.py:6: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
-    The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
-    
-    For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
-    
-    
-      cancer_rate_cleaned_categorical['HDICAT'].fillna(cancer_rate_cleaned_categorical['HDICAT'].mode()[0], inplace=True)
-    
 
 
 ```python
